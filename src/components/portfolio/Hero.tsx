@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-accent p-1 shadow-2xl">
             <img 
-              src="/krishna-profile.png" 
+              src="/lovable-uploads/7333e143-c611-40dc-9356-cdbcbadba4b4.png" 
               alt="Krishna Priya Kommineni" 
               className="w-full h-full rounded-full object-cover"
             />
