@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Linkedin, Mail } from "lucide-react";
 
+
 const Hero = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -19,9 +20,11 @@ const Hero = () => {
         <div className="text-center space-y-8">
           {/* Profile Image */}
           <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-accent p-1 shadow-2xl">
-            <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-4xl font-bold text-primary">
-              KP
-            </div>
+            <img 
+              src="/krishna-profile.png" 
+              alt="Krishna Priya Kommineni" 
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
 
           {/* Name and Title */}

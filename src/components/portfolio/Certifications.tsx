@@ -32,6 +32,15 @@ const Certifications = () => {
       color: "from-orange-500 to-yellow-500"
     },
     {
+      title: "AWS Generative AI Certification",
+      issuer: "AWS Educate",
+      year: "July 2025",
+      description: "Advanced certification in generative AI technologies and AWS AI services",
+      skills: ["Generative AI", "Machine Learning", "AWS Bedrock", "AI Ethics"],
+      credentialId: "AWS-GENAI-2025",
+      color: "from-green-500 to-teal-500"
+    },
+    {
       title: "Front-End Web Development",
       issuer: "IBM",
       year: "2022",
@@ -136,7 +145,7 @@ const Certifications = () => {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">5</div>
+                <div className="text-3xl font-bold text-primary mb-2">6</div>
                 <div className="text-sm text-muted-foreground">Certifications</div>
               </div>
               <div className="text-center">
@@ -144,11 +153,11 @@ const Certifications = () => {
                 <div className="text-sm text-muted-foreground">Cloud Platforms</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">20+</div>
+                <div className="text-3xl font-bold text-primary mb-2">25+</div>
                 <div className="text-sm text-muted-foreground">Skills Validated</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">2023</div>
+                <div className="text-3xl font-bold text-accent mb-2">2025</div>
                 <div className="text-sm text-muted-foreground">Latest Cert</div>
               </div>
             </div>
