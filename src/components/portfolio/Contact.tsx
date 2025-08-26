@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Linkedin, Github, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -50,12 +50,6 @@ const Contact = () => {
       label: "LinkedIn",
       value: "krishnapriyakom",
       href: "https://linkedin.com/in/krishnapriyakom"
-    },
-    {
-      icon: <Github className="h-6 w-6" />,
-      label: "GitHub",
-      value: "krishnapriya",
-      href: "https://github.com/krishnapriya"
     }
   ];
 
