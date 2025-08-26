@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Bot, CreditCard, ShoppingCart, Zap } from "lucide-react";
+import { Bot, CreditCard, ShoppingCart, Zap } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -159,16 +159,6 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {project.status === "Production" && (
-                  <div className="flex space-x-4 pt-4">
-                    <Button size="sm" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Live Demo
-                      </a>
-                    </Button>
-                  </div>
-                )}
               </CardContent>
             </Card>
           ))}
