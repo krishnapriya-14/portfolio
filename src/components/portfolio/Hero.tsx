@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -52,14 +52,6 @@ const Hero = () => {
               className="p-3 rounded-full bg-card hover:bg-accent hover:text-accent-foreground transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               <Mail className="h-6 w-6" />
-            </a>
-            <a 
-              href="https://github.com/krishnapriya"
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-card hover:bg-foreground hover:text-background transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              <Github className="h-6 w-6" />
             </a>
           </div>
 

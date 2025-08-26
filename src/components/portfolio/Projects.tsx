@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Bot, CreditCard, ShoppingCart, Zap } from "lucide-react";
+import { ExternalLink, Bot, CreditCard, ShoppingCart, Zap } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -45,8 +45,7 @@ const Projects = () => {
         "Real-time transaction analysis",
         "Adaptive learning algorithms",
         "Integration with payment gateways"
-      ],
-      github: "https://github.com/krishnapriya/fraud-detection"
+      ]
     },
     {
       title: "Sacs and Packs E-commerce",
@@ -60,8 +59,7 @@ const Projects = () => {
         "Secure payment processing",
         "Inventory management system",
         "User authentication and profiles"
-      ],
-      github: "https://github.com/krishnapriya/sacs-and-packs"
+      ]
     }
   ];
 
@@ -161,24 +159,16 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="flex space-x-4 pt-4">
-                  {project.github && (
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4 mr-2" />
-                        View Code
-                      </a>
-                    </Button>
-                  )}
-                  {project.status === "Production" && (
+                {project.status === "Production" && (
+                  <div className="flex space-x-4 pt-4">
                     <Button size="sm" asChild>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Live Demo
                       </a>
                     </Button>
-                  )}
-                </div>
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}
