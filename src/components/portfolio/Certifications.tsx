@@ -5,12 +5,14 @@ import { Award, ExternalLink } from "lucide-react";
 const Certifications = () => {
   const certifications = [
     { 
-      title: "AWS GENAI",
-      issuer:"AWS Educate",
+      title: "AWS GENERATIVE AI",
+      issuer: "AWS Educate",
       year: "2025",
-      description: "F"
-      
-    }
+      description: "Comprehensive certification in Generative AI and machine learning fundamentals",
+      skills: ["Generative AI", "Machine Learning", "AWS Bedrock", "AI Ethics"],
+      credentialId: "AWS-GENAI-2025",
+      color: "from-orange-500 to-red-500"
+    },
     {
       title: "Full Stack Developement",
       issuer: "IBM",
