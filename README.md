@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 🌐 Krishna Priya Kommineni — Portfolio
 
-## Project info
+🚀 **Full Stack & Mobile Engineer | React, Java, Spring Boot, iOS | Cloud & GenAI Solutions that Scale**
 
-**URL**: https://lovable.dev/projects/f4c377e0-0988-4cb5-8672-d7074720f10b
+This is my personal portfolio — built with **React + Vite + Tailwind CSS**, showcasing my experience, projects, certifications, and technical skills across **Full Stack Development, Mobile Engineering, and Cloud-Native AI Solutions**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Live Portfolio
+👉 **[krishnapriya.vercel.app](https://krishnapriya.vercel.app)**
 
-**Use Lovable**
+Explore my work, certifications, and professional experience — built for both desktop and mobile users with dark/light mode support.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f4c377e0-0988-4cb5-8672-d7074720f10b) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💼 Professional Summary
 
-**Use your preferred IDE**
+I’m a **Full Stack & Mobile Engineer** experienced in designing and building scalable cloud applications using React, Java, Spring Boot, and Swift/React Native.  
+I specialize in **AI-driven workflows**, **microservices architecture**, and **cloud deployments** across AWS and Azure ecosystems.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Tech Stack
 
-Follow these steps:
+| Category | Technologies |
+|-----------|---------------|
+| **Languages** | Java, JavaScript (ES6+), TypeScript, Python |
+| **Frontend** | React.js, React Native, Angular, SwiftUI, Tailwind CSS |
+| **Backend** | Spring Boot, Node.js, Express.js |
+| **Cloud & DevOps** | AWS (Lambda, S3, EC2, API Gateway), Azure (AKS, Cognitive Services), Docker, Kubernetes, GitHub Actions |
+| **Databases** | MySQL, PostgreSQL, MongoDB |
+| **Testing & Tools** | JUnit, Selenium, Postman, Git, JIRA, Agile/Scrum |
+| **AI / ML** | Azure OpenAI, OpenAI APIs, Pinecone, RAG Workflows |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧩 Featured Projects
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🩺 **O2 Healthcare — Mobile Diagnostic Platform**
+Cross-platform app integrating React Native (Expo), Spring Boot, and AWS Lambda for HIPAA-compliant data workflows.  
+**Result:** Improved performance by 40% and reduced release cycles by 35%.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 🎓 **Panther Tech Services — EIU**
+Developed AI-powered university assistant bot using Java, Node.js, and React.js.  
+**Impact:** Reduced student support query response times by 50%.
+
+### 💻 **Client Portal Optimization — AT&T (IBM)**
+Optimized React micro frontends and CI/CD with Jenkins + AWS CodePipeline, achieving 25% faster load speeds.
+
+---
+
+## 🏆 Certifications
+
+- **Microsoft Certified:** Azure AI Fundamentals  
+- **Generative AI with LLMs — Coursera**  
+- **Full Stack Development — IBM**  
+- **AWS Generative AI — AWS Educate**
+
+---
+
+## 📱 Key Features of This Portfolio
+
+- ⚡ Built with **Vite + React** for performance  
+- 🎨 Styled using **Tailwind CSS** (dark/light mode)  
+- 📱 Responsive & mobile-friendly design  
+- 🧭 Modular components (Hero, Projects, Skills, Experience)  
+- 🚀 Deployed via **Vercel**
+
+---
+
+## 🧰 Installation (for local setup)
+
+```bash
+git clone https://github.com/krishnapriya-14/portfolio.git
+cd portfolio
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f4c377e0-0988-4cb5-8672-d7074720f10b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
