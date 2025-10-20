@@ -1,4 +1,5 @@
 # 🌐 Krishna Priya Kommineni — Portfolio
+https://krishnapriya-14.github.io/portfolio/
 
 🚀 **Full Stack & Mobile Engineer | React, Java, Spring Boot, iOS | Cloud & GenAI Solutions that Scale**
 
@@ -7,7 +8,7 @@ This is my personal portfolio — built with **React + Vite + Tailwind CSS**, sh
 ---
 
 ## ✨ Live Portfolio
-👉 **[krishnapriya.vercel.app](https://krishnapriya.vercel.app)**
+👉 https://krishnapriya-14.github.io/portfolio/
 
 Explore my work, certifications, and professional experience — built for both desktop and mobile users with dark/light mode support.
 
