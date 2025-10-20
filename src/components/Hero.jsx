@@ -8,7 +8,7 @@ export default function Hero() {
       className="min-h-[86vh] flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-50 to-teal-50 dark:from-gray-900 dark:to-gray-800 px-6"
     >
       <img
-  src="https://raw.githubusercontent.com/krishnapriya-14/portfolio/main/public/Profile.png"
+        src="/public/Profile.png"           /* put your photo at /public/profile.jpg */
         alt="Krishna Priya Kommineni"
         className="w-36 h-36 rounded-full mb-6 shadow-xl border-4 border-white dark:border-gray-800 object-cover"
       />
