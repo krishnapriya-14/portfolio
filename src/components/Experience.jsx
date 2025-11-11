@@ -3,14 +3,17 @@ import React from "react";
 export default function Experience() {
   const roles = [
     {
-      title: "Mobile Application Developer",
+      title: "Application Developer",
       company: "O2 Healthcare, MN",
       period: "Aug 2025 – Present",
       bullets: [
-        "Architected iOS (Swift/SwiftUI) + React Native platform with HIPAA-compliant data flows.",
-        "Designed reusable UI frameworks; improved load times by 40% and reduced crash rates by 30%.",
-        "Built Spring Boot + AWS Lambda APIs for real-time health data synchronization.",
-        "Implemented CI/CD with GitHub Actions + Docker; 35% faster releases.",
+"Architected React + Next.js healthcare dashboards with AI-powered features for doctors and admins.",
+"Integrated OpenAI GPT-based APIs for auto-summarization of diagnostic data and LLM chat interfaces to assist clinicians with patient insights.",
+"Designed modular UI frameworks and reusable Tailwind CSS components, reducing dev time by 30%.",
+"Optimized front-end performance by implementing SSR and dynamic caching, achieving 40% faster load times.",
+"Led implementation of Auth0 authentication, improving app security and scalability across distributed users.",
+"Collaborated with UX, AI, and data teams to turn complex workflows into interactive dashboards, increasing engagement by 25%."
+
       ],
     },
     {
@@ -28,13 +31,16 @@ export default function Experience() {
       company: "IBM",
       period: "Nov 2021 – May 2023",
       bullets: [
-        "Modernized AT&T portals with micro frontends; improved API response times by 40%.",
-        "Built React/Angular components and Express.js APIs; ensured 99.9% uptime with Jenkins/AWS.",
-        "Led DevOps workflows (Jenkins, CodePipeline); migrated monoliths to microservices.",
+        "Built enterprise-scale React.js applications to manage telecom user dashboards and product management workflows.",
+"Developed scalable React components for customer dashboards and service metrics visualization.",
+"Collaborated with API and UX teams to build user-centric, interactive experiences.",
+"Designed modular UI components using Redux Toolkit, React Hooks, and Material UI, improving code reusability by 40%.",
+"Developed REST-based integrations with backend services for real-time customer metrics and analytics.",
+"Automated builds and deployments through GitHub Actions and AWS ECS, achieving faster release cycle."
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Developer Intern",
       company: "V4 Infotech",
       period: "Feb 2018 – Oct 2021",
       bullets: [
